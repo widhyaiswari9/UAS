@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.navlogo{
+    padding-left: 30px;
+    width: 30%;
+}
+.navtitle{
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(119, 23, 31);
+}
+.imgabout{
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+}
+.about{
+    background-color: aliceblue;
+}
+.aboutdesc{
+    font-size: 18px;
+    color: black;
+    padding: 1rem 3rem;
+}
+.counting{
+    width: 100%;
+    padding: 2rem 5%;
+    margin: 1rem 0;
+    min-height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/5.jpg");
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.counting .box{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25rem;
+        flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+.counting .box .count{
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+.counting .box i{
+    color: white;
+    font-size: 6rem;
+    width: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    padding: 2rem 5%;
+    color: azure;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: azure;
+}
+.footer a:hover{
+    color: rgb(0, 68, 255);
+}
+.jdsub{
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+.spasi{
+    margin-bottom: 20px 0;
+    padding: 20px;
+}
